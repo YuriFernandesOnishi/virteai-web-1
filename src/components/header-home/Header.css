@@ -1,0 +1,39 @@
+@import url(../../app/globals.css);
+
+
+header{
+  height: 60px;
+  display: flex;
+  align-items: center; 
+  padding: 50px 70px; 
+  background-color: var(--primary-color);
+  gap: 100px;
+
+}
+
+.container-pages{
+    display: flex;
+    gap: 95px;
+}
+
+.white-button{
+    width: 128px;
+    height: 76px;
+    font-size: 30px;
+    border-radius: 30px;
+    color: var(--dark-blue);
+    background-color: var(--secundary-color);
+}
+.blue-button{
+    width: 216px;
+    height: 76px;    
+    font-size: 30px;
+    border-radius: 30px;
+    color: var(--secundary-color);
+    background-color: var(--dark-blue);
+}
+
+.container-button{
+    display: flex;
+    gap: 20px;
+}

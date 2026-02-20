@@ -2,16 +2,13 @@
 
 
 header{
-    height: 60px;
+  height: 60px;
   display: flex;
-  align-items: center;
-  
-  padding: 80px 70px;
-  
-    background-color: var(--primary-color);
+  align-items: center; 
+  padding: 50px 70px; 
+  background-color: var(--primary-color);
+  gap: 87%;
+
 }
 
-.logo {
-  display: flex;
-  margin-right: -100;
-}
+
