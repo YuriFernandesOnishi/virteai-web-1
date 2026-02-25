@@ -3,7 +3,7 @@ import './Header.css'
 import logo from '../../assets/images/logo.svg';
 import aboutUs from '../../assets/images/about-us.svg';
 import Offers from '../../assets/images/offers.svg';
-import Shopping from '../../assets/images/shopping.svg';
+import home from '../../assets/images/homeicon.svg';
 import Notification from '../../assets/images/notification.svg';
 import Image from 'next/image';
 import ButtonEnter from '../enter-button/Button';
@@ -13,54 +13,66 @@ export default function HeaderHome () {
     return (
         <header>
             <Image 
-            className='image' 
+            className='logo' 
             src={logo} 
             alt="Logo image" 
-            width={160}
-            height={150}
+            
             />
             
             <div className="container-pages">
 
-                <Image 
-                className='image' 
-                src={aboutUs} 
-                alt="Sobre nós icon" 
-                width={109}
-                height={86}
-                />
+                <div className="iconecontainer">
+                    <Image 
+                    className='image' 
+                    src={aboutUs} 
+                    alt="Sobre nós icon" 
+                    width={50}
+                   
+                    />
+                    <p>Sobre nós</p>
+                </div>
 
-                <Image 
-                className='image' 
-                src={Offers} 
-                alt="Ofertas icon" 
-                width={162}
-                height={86}
-                />
+                <div className="iconecontainer">
+                    <Image 
+                    className='image' 
+                    src={Offers} 
+                    alt="Ofertas icon" 
+                    width={50}
+                    />
 
-                <Image 
-                className='image' 
-                src={Shopping} 
-                alt="Suas compras icon" 
-                width={151}
-                height={86}
-                />
+                    <p>Nossos serviços</p>
+                </div>
+                
+                <div className="iconecontainer">
+                    <Image 
+                    className='image' 
+                    src={home} 
+                    alt="Pagina inicial" 
+                    width={50}
+                    
+                    />
 
-                <Image 
-                className='image' 
-                src={Notification} 
-                alt="Notificações icon" 
-                width={131}
-                height={86}
-                />
+                    <p>Página inicial</p>
+                </div>
+
+                <div className="iconecontainer">
+                    <Image 
+                    className='image' 
+                    src={Notification} 
+                    alt="Notificações icon" 
+                    width={50}
+                    />
+
+                    <p>Notificações</p>
+                </div>
             </div>
 
             <div className="container-button">
                 <button className='white-button'>
-                    Entrar
+                    <h3>Entrar</h3>
                 </button>
                 <button className='blue-button'>
-                    Cadastre-se
+                    <h3>Cadastre-se</h3>
                 </button>
 
             </div>
