@@ -9,7 +9,7 @@ export default function Footer () {
     return (
         <footer>
             <Image 
-            className='image' 
+            className='Logo' 
             src={logo} 
             alt="Logo image" 
             width={160}

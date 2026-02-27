@@ -2,19 +2,20 @@
 
 
 footer{
-  height: 60px;
+  height: 250px;
+  width: 100%;
   display: flex;
   align-items: center; 
-  padding: 80px 70px; 
   background-color: var(--primary-color);
-  gap: 150px;
-
+  
 }
 
 .container-footer{
     display: flex;
-    gap: 200px;
+    gap: 60%;
     align-items: start;
+    text-align: center;
+    justify-content: space-between;
 }
 
 .container-contact, h3{
@@ -43,4 +44,10 @@ footer{
 }
 .container-Terms p{
     margin-top: 15px;
+    width: 200px;
+}
+
+.Logo{
+    margin: 5%;
+    margin-right: 13%;
 }

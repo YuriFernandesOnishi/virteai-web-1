@@ -1,9 +1,19 @@
+import Image from 'next/image';
 import './Card.css'
 import React from 'react';
 
-export default function Card () {
+type ICard = {
+    title: string
+    description: string
+    src: string
+}
+
+export default function Card ({src, title, description} : ICard) {
     return(
-        <div className="CardGeneral">
-        </div>
+        <article className="CardGeneral">
+            <Image src={src} alt='hahaha'/>
+            <h5>{title}</h5>
+            <p>{description}</p>
+        </article>
     )
 }

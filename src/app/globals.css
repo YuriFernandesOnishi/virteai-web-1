@@ -32,6 +32,7 @@ h2,h1,h3, button{
     --button-personalized-plan:#AE9C7C;
     --border-personalized-plan:#C9BBA0;
     --read-notifications:#E7E7E7;
+    --background-home:#ECECEC;
 
     font: normal 16px 'Comfortaa', sans-serif;
 }
