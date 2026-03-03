@@ -23,8 +23,14 @@
 }
 
 .card-container {
-  width: 100%;
-  margin-bottom: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    height: 600px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
 }
 
 .Julio {
@@ -51,4 +57,3 @@
 .card-parceiro .Andddes{
     margin-bottom: 100px;
 }
-

@@ -1,0 +1,41 @@
+@import url(../../app/globals.css);
+
+
+header{
+    width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: var(--primary-color);
+  justify-content: space-between;
+}
+
+.container-profile{
+    display: flex;
+    gap: 20px;
+    margin-right: 3%;
+}
+
+.logo{
+    width: 15%;
+    margin-left: 3%;
+    
+}
+
+.container-pages{
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+}
+.iconecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.iconecontainer p{
+    width: 150px;
+    margin-top: 10px;
+}

@@ -1,0 +1,58 @@
+@import url(../../app/globals.css);
+
+.CardGeneral{
+  display: flex;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    width: 23%;
+    height: 560px;
+  overflow: hidden; /* Ensures the image respects the border radius */
+  margin: 16px;
+  flex-direction: column;
+  align-items: center;
+  min-width: 350px;
+    flex-shrink: 0;
+}
+
+.imageContainer{
+  margin-top: 25px;
+}
+
+.cardContainer{
+  margin-top: 15px;
+  background-color: var(--secundary-color);
+  border-radius: 30px;
+  width: 85%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cardContainer h5{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  width: 97%;
+}
+
+.line{
+  width: 100%;
+}
+
+.cardContainer p{
+  font-size: 18px;
+  align-items: center;
+  text-align: justify;
+  margin: 15px;
+}
+
+.CardGeneral{
+    min-width: 350px;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.CardGeneral:hover{
+    transform: scale(1.08);
+}

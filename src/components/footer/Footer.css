@@ -7,9 +7,9 @@ footer{
   display: flex;
   align-items: center; 
   background-color: var(--primary-color);
-  
+  border-top: 10px solid var(--lines-table);
 }
-
+    
 .container-footer{
     display: flex;
     gap: 60%;

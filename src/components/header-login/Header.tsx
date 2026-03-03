@@ -4,9 +4,10 @@ import logo from '../../assets/images/logo.svg';
 import aboutUs from '../../assets/images/about-us.svg';
 import Offers from '../../assets/images/offers.svg';
 import home from '../../assets/images/homeicon.svg';
+import profile from '../../assets/images/ProfileIcon.svg';
 import Notification from '../../assets/images/notification.svg';
 import Image from 'next/image';
-import ButtonEnter from '../enter-button/Button';
+
 
 export default function HeaderHome () {
 
@@ -67,13 +68,13 @@ export default function HeaderHome () {
                 </div>
             </div>
 
-            <div className="container-button">
-                <button className='white-button'>
-                    <h3>Entrar</h3>
-                </button>
-                <button className='blue-button'>
-                    <h3>Cadastre-se</h3>
-                </button>
+            <div className="container-profile">
+                <Image 
+                className='Profile' 
+                src={profile} 
+                alt="Icon profile" 
+            
+            />
 
             </div>
             

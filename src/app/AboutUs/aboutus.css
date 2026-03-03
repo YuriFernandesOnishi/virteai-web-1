@@ -1,0 +1,58 @@
+@import url(../../app/globals.css);
+
+.aboutus-container{
+    display: flex;
+    flex-direction: column;
+}
+.Group-image{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 100px;
+}
+
+.container-descripition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.container-descripition h1{
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.container-descripition p{
+    font-size: 30px;
+    width: 930px;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+
+.our-mission{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-home);
+    align-items: center;
+}
+
+.our-mission h2{
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.container-mission{
+    display: flex;
+    align-items: center;
+}
+
+.container-mission p{
+    font-size: 30px;
+    width: 730px;
+    text-align: justify;
+    margin-left: 145px;
+    margin-bottom: 100px;
+}
