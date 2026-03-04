@@ -1,0 +1,45 @@
+@import url(../../app/globals.css);
+@import url(../../app/globals.css);
+
+
+.Section-Singup{
+    margin-bottom: 100px;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.card-container h2{
+    background-color: var(--background-card);
+    font-size: 50px;
+    padding: 18px 45px;
+    border-radius: 50px;
+    z-index: 2;
+    box-shadow: 5px 5px 5px rgb(41, 39, 39);
+}
+
+.card{
+    background-color: var(--background-card);
+    padding: 50px 50px;
+    border-radius: 50px;
+    z-index: 0;
+    margin-top: -40px;
+}
+
+.card p{
+    font-size: 20px;
+    margin: 5px;
+    margin-top: 50px;
+
+}
+
+.container-buttons{
+    display: flex;
+    margin-top: 60px;
+    gap: 10px;
+    justify-content: center;
+    
+}

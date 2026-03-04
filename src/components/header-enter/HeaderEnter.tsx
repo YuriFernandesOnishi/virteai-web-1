@@ -4,12 +4,17 @@ import logo from '../../assets/images/logo.svg';
 import returnIcon from '../../assets/images/return-icon.svg';
 import Image from 'next/image';
 
-export default function HeaderEnter () {
+type ICard = {
+    src: string
+}
+
+
+export default function HeaderEnter ({src} : ICard) {
 
     return (
         <header>
             <Image 
-            className='image' 
+            className='Login' 
             src={logo} 
             alt="Logo image" 
             width={160}
@@ -19,13 +24,13 @@ export default function HeaderEnter () {
             />
             
             <Image 
-            className='image' 
-            src={returnIcon} 
-            alt="Retorno" 
+            className='return' 
+            src={src} alt='Home'
             width={50}
             height={50}
-            margin-left={60}
-            />
+            margin-left={60}/>
+            
+            
             
         </header>
 

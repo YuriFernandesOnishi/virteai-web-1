@@ -1,11 +1,14 @@
 import './Button.css'
 import React from 'react';
 
-
-export default function ButtonEnter (){
+type IButtonEnter = {
+    onclick: () => void 
+    label : string
+}
+export default function ButtonEnter ({label, onclick} : IButtonEnter){
     return(
-        <button>
-            clique
+        <button onClick={onclick}>
+           {label}
         </button>
     )
 }

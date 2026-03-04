@@ -7,10 +7,14 @@ import Input from "@/components/input/Input";
 import Image from "next/image";
 import HomePage from "./Home/page";
 import AboutUs from "./AboutUs/page";
+import Login from "./Login/page";
+import PatientSingup from "./SingUpPatient/page";
+import TherapistSingup from "./SingUpTherapist/page";
+import RedefinePassword from "./RedefineWeb/page";
 
 export default function Home() {
   return (
-    <AboutUs/>
+    <RedefinePassword/>
     
   );
 }

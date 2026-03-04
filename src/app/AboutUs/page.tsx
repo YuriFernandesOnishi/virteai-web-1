@@ -3,7 +3,13 @@ import './aboutus.css'
 import Image from 'next/image';
 import HeaderHome from "@/components/header-logout/Header";
 import imagegroup from '../../assets/images/GroupPhoto.svg';
+import Lyvia from '../../assets/images/LyviaImage.svg';
+import Ana from '../../assets/images/AnaImage.svg';
+import Ester from '../../assets/images/EsterImage.svg';
+import Yuri from '../../assets/images/YuriImage.svg';
+import Valdir from '../../assets/images/ValdirImage.svg';
 import Teai from '../../assets/images/TEAImage.svg';
+import Footer from '@/components/footer/Footer';
 
 
 export default function AboutUs () {
@@ -57,7 +63,77 @@ export default function AboutUs () {
                         são ferramentas de conexão, aprendizagem e bem-estar
                     </p>
                 </div>
+
             </div>
+                <div className="our-group">
+                    <h2>Nosso Time</h2>
+
+                    <p>A força da VirTEAI está na colaboração. Nosso time multidisciplinar reúne 
+                        talentos de diferentes áreas, comprometidos com a acessibilidade e a 
+                        inovação social:
+                    </p>
+
+
+                </div>
+
+                <div className="section-dev">
+
+                    <div className="Group-Developer">
+                        <div className="container-developer">
+                            <Image 
+                            className='Developer-image' 
+                            src={Lyvia} 
+                            alt="Desenvolvedora front-end" 
+                            />
+
+                            <p>Desenvolvedora FrontEnd</p>
+                        </div>
+
+                        <div className="container-developer">
+                            <Image 
+                            className='Developer-image' 
+                            src={Ana} 
+                            alt="Designer" 
+                            />
+
+                            <p>Designer</p>
+                        </div>
+
+                        <div className="container-developer">
+                            <Image 
+                            className='Developer-image' 
+                            src={Ester} 
+                            alt="Desenvolvedora de Banco de Dados" 
+                            />
+
+                            <p>Desenvolvedora de Banco de Dados</p>
+                        </div>
+                    </div>
+
+                    <div className="Group-Developer">
+                        <div className="container-developer">
+                            <Image 
+                            className='Developer-image' 
+                            src={Valdir} 
+                            alt="Documentação" 
+                            />
+
+                            <p>Documentação</p>
+                        </div>
+
+                        <div className="container-developer">
+                            <Image 
+                            className='Developer-image' 
+                            src={Yuri} 
+                            alt="Desenvolvedor BackEnd" 
+                            />
+
+                            <p>Desenvolvedor BackEnd</p>
+                        </div>
+
+                    </div>
+                </div>
+                <Footer/>
         </div>
 
     );

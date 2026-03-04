@@ -7,9 +7,14 @@ header{
   display: flex;
   align-items: center; 
   background-color: var(--primary-color);
-  gap: 87%;
+  gap: 80%;
+  position: fixed;
+  top: 0;
 
 }
 
+.Login{
+  margin: 3%;
+}
 
 
