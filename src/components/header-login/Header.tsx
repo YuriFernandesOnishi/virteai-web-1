@@ -7,6 +7,7 @@ import home from '../../assets/images/homeicon.svg';
 import profile from '../../assets/images/ProfileIcon.svg';
 import Notification from '../../assets/images/notification.svg';
 import Image from 'next/image';
+import Link from "next/link";
 
 
 export default function HeaderHome () {
@@ -64,7 +65,7 @@ export default function HeaderHome () {
                     width={50}
                     />
 
-                    <p>Notificações</p>
+                    <Link href="/Home">Notificações</Link>
                 </div>
             </div>
 

@@ -49,7 +49,6 @@ export default function HeaderLogout () {
                     src={home} 
                     alt="Pagina inicial" 
                     width={50}
-                    
                     />
 
                     <p>Página inicial</p>

@@ -1,12 +1,10 @@
-@import url(../../app/globals.css);
 
 
 header{
     width: 100%;
   height: 170px;
   display: flex;
-  justify-content: center;
-  align-items: center; 
+  align-items: center;
   background-color: var(--primary-color);
   justify-content: space-between;
 }

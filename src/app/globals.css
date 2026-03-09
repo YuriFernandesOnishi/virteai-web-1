@@ -7,16 +7,16 @@
     src: url('../assets/fonts/Marmelad/Marmelad-Regular.ttf');         
 }
 *{
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 p, h6, input{
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', serif;
 }
 
 h2,h1,h3, button{
-    font-family: 'Marmelad';
+    font-family: 'Marmelad', serif;
 }
 
 :root{
